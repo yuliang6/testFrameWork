@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YLLLib'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'A short description of YLLLib.'
 
 
@@ -21,6 +21,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YLLLib/Classes/**/*'
+  s.ios.vendored_frameworks = 'YLLLib.framework'
   #s.public_header_files = 'YLLLib/Header/*.h'
   # s.resource_bundles = {
   #   'YLLLib' => ['YLLLib/Assets/*.png']
