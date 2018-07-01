@@ -13,4 +13,9 @@
  测试打印
  */
 - (void)testLog;
+
+/**
+ 展示hud
+ */
+- (void)showHud;
 @end
