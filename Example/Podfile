@@ -6,6 +6,5 @@ target 'YLLLib_Example' do
   target 'YLLLib_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
