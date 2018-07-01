@@ -22,7 +22,7 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'YLLLib/Classes/**/*'
   s.ios.vendored_frameworks = 'YLLLib.framework'
-  #s.public_header_files = 'YLLLib/Header/*.h'
+  s.public_header_files = 'YLLLib/Classes/**/*.h'
   # s.resource_bundles = {
   #   'YLLLib' => ['YLLLib/Assets/*.png']
   # }
